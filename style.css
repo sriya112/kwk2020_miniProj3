@@ -1,0 +1,52 @@
+body {
+	background-image: url("https://digital.hammacher.com/Items/95555/95555_1000x1000.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Montserrat';
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.navbar {
+	
+	border-style: solid;
+	border-color: white;
+}
+
+.inp {
+	display: flex;
+	justify-content: center;
+	width: 25%;
+	padding-bottom: 2%;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	width: 7%;
+}
+
+@media(min-width:468px){
+  .container-1{
+      display:flex;
+      
+  }
+}
